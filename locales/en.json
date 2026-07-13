@@ -1,0 +1,120 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "How to Create or Recover Your Telegram Account Easily — Complete Guide",
+    "description": "Complete and easy guide to create or recover your Telegram account from home. Instant access to all detailed steps."
+  },
+  "nav": {
+    "cta": "🔥 Access the guide"
+  },
+  "hero": {
+    "badge": "🔥 Exclusive Guide — Step by Step",
+    "title": "<em>How to Create or Recover</em><br />Your Telegram Account<br />Easily from Home 😉",
+    "desc": "A complete, simple and detailed guide to <strong>create a new Telegram account</strong> or <strong>recover your existing account</strong> — 100% accessible from your phone or computer.",
+    "cta": "📖 Access the guide now",
+    "trust_secure": "Secure Guide",
+    "trust_instant": "Instant Access",
+    "trust_private": "Step by Step",
+    "trust_email": "Support Included"
+  },
+  "video": {
+    "title": "Watch this video to understand the process",
+    "subtitle": "Watch this short video to see how simple it is.",
+    "src": "./assets/video/guide.mp4"
+  },
+  "stats": {
+    "steps_label": "Detailed Steps",
+    "images_label": "Screenshots",
+    "support_label": "Responsive Support",
+    "users_label": "Users Helped"
+  },
+  "offer": {
+    "label": "What you get",
+    "title": "Here's exactly what<br />you will receive:",
+    "desc": "A complete PDF guide with all illustrated steps to create or recover your Telegram account.",
+    "card1_label": "Complete Guide",
+    "card1_title": "Detailed Steps",
+    "card1_value": "Value: <span>5,000 FCFA</span>",
+    "card1_desc": "All the steps to create a Telegram account from scratch, with screenshots.",
+    "card2_label": "Recovery",
+    "card2_title": "Existing Account",
+    "card2_value": "Value: <span>5,000 FCFA</span>",
+    "card2_desc": "Solutions to recover your Telegram account if you've lost access.",
+    "card3_label": "Bonus",
+    "card3_title": "Tips & Tricks",
+    "card3_value": "Value: <span>3,000 FCFA</span>",
+    "card3_desc": "Tips to secure your account and use Telegram like a pro.",
+    "total_label": "Total value",
+    "total_content": "of content",
+    "price_label": "Today's offer price"
+  },
+  "telegram": {
+    "label": "Why Telegram?",
+    "title": "The most secure<br />messaging app in the world",
+    "feat1_strong": "100% Free",
+    "feat1_text": " — Telegram is completely free, no subscription or hidden fees.",
+    "feat2_strong": "Multi-platform",
+    "feat2_text": " — Available on phone, tablet and computer. Your messages synced everywhere.",
+    "feat3_strong": "Maximum security",
+    "feat3_text": " — End-to-end encryption, self-destructing messages, and much more.",
+    "feat4_strong": "Privacy",
+    "feat4_text": " — Telegram never shares your personal data with third parties.",
+    "iphone_note": "⚠️ <em>The guide works on iPhone, Android and PC.</em>",
+    "visual_title": "Ready to create your account? 🚀",
+    "visual_desc": "Follow the step-by-step guide and you'll have your Telegram account up and running in less than 5 minutes."
+  },
+  "testimonials": {
+    "label": "Customer Reviews",
+    "title": "+1,200 users<br />already trust us",
+    "t1_text": "Very clear and well-illustrated guide. I created my account in 3 minutes flat!",
+    "t2_text": "I had lost access to my account for months. Thanks to this guide, I recovered everything. Thank you!",
+    "t3_text": "I'm not very tech-savvy, but the explanations are so simple that I succeeded on my first try 👌",
+    "cta_text": "Join the <strong style=\"color:var(--primary);\">1200 satisfied users</strong> and get your guide now."
+  },
+  "proofs": {
+    "label": "Proof of satisfaction",
+    "title": "They've already followed the guide and given permission to share their feedback. Customer satisfaction is our priority!",
+    "desc": "Here are some feedback from our users satisfied with the quality of the guide."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "q1": "How do I receive the guide?",
+    "a1": "After your payment, you receive a PDF by email containing the complete guide with all illustrated steps. Make sure to enter your email address correctly when ordering.",
+    "q2": "Does the guide work on iPhone?",
+    "a2": "Yes, absolutely! The guide is designed to work on all devices: iPhone, Android, PC and Mac. Each step is explained for each platform.",
+    "q3": "I can't recover my account, can the guide really help me?",
+    "a3": "Yes, the guide covers all Telegram account recovery methods: via SMS, email, and trusted contacts. Follow the steps and you'll get your account back.",
+    "q4": "Can I ask questions if I get stuck?",
+    "a4": "Yes! The guide includes access to our support. If you encounter any difficulty, you can contact us by email and we'll help you every step of the way."
+  },
+  "cta_section": {
+    "promo_label": "🔥 THE OFFER IS AVAILABLE NOW",
+    "title": "Ready to create or recover<br />your Telegram account?",
+    "subtitle": "Complete Guide · Instant Access · Support Included",
+    "btn": "📖 Get the Guide — 3,500 FCFA",
+    "warning": "⚠️ <strong>Important:</strong> Make sure to correctly enter your email when purchasing to receive your PDF guide. You can use a <strong>pseudonym</strong> at checkout to preserve your anonymity.",
+    "payment_methods": "Secure payment methods available via mobile money (Wave, Orange Money, MTN momo, Moov money, ...) or bank card (Visa and MasterCard)"
+  },
+  "upsell": {
+    "label": "Recommended for you",
+    "title": "Our Exclusive Premium Offers",
+    "balta_title": "Baltazar Pack (+2103 Videos, Photos & Comics)",
+    "balta_desc": "The complete Baltazar collection in one private channel. HD videos, photos and comics for the Mature Man.",
+    "balta_btn": "View Baltazar Offer →",
+    "kera_title": "Influencer Pack (KERA)",
+    "kera_desc": "Discover the exclusive content of the influencer everyone is talking about. Instant and discreet access.",
+    "kera_btn": "View Videos →",
+    "bd_title": "Pack +14,838 Adult Comics & Manga",
+    "bd_desc": "Discover our exclusive collection of adult comics. Immediate access to thousands of unique stories.",
+    "bd_btn": "View Comics Offer →"
+  },
+  "footer": {
+    "contact_intro": "A problem? Contact us:",
+    "copyright": "© 2024 GoTelegram. All rights reserved."
+  },
+  "float_bar": {
+    "text": "🔥 Promo: <strong>3,500 FCFA</strong> instead of 13,000 FCFA",
+    "btn": "Buy 🛒"
+  }
+}

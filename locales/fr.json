@@ -1,0 +1,120 @@
+{
+  "lang": "fr",
+  "meta": {
+    "title": "Comment Créer ou Récupérer son Compte Télégram Facilement — Guide Complet",
+    "description": "Guide complet et facile pour créer ou récupérer votre compte Télégram depuis chez vous. Accès instantané à toutes les étapes détaillées."
+  },
+  "nav": {
+    "cta": "🔥 Accéder au guide"
+  },
+  "hero": {
+    "badge": "🔥 Guide Exclusif — Étape par Étape",
+    "title": "<em>Comment Créer ou Récupérer</em><br />son Compte Télégram<br />Facilement depuis chez vous 😉",
+    "desc": "Un guide complet, simple et détaillé pour <strong>créer un nouveau compte Télégram</strong> ou <strong>récupérer votre compte existant</strong> — 100% accessible depuis votre téléphone ou ordinateur.",
+    "cta": "📖 Accéder au guide maintenant",
+    "trust_secure": "Guide sécurisé",
+    "trust_instant": "Accès immédiat",
+    "trust_private": "Étape par étape",
+    "trust_email": "Support inclus"
+  },
+  "video": {
+    "title": "Regarde cette vidéo pour comprendre le processus",
+    "subtitle": "Regardez cette courte vidéo pour voir à quel point c'est simple.",
+    "src": "./assets/video/guide.mp4"
+  },
+  "stats": {
+    "steps_label": "Étapes détaillées",
+    "images_label": "Captures d'écran",
+    "support_label": "Support réactif",
+    "users_label": "Utilisateurs aidés"
+  },
+  "offer": {
+    "label": "Ce que tu reçois",
+    "title": "Voici exactement ce que<br />tu vas recevoir :",
+    "desc": "Un guide PDF complet avec toutes les étapes illustrées pour créer ou récupérer ton compte Télégram.",
+    "card1_label": "Guide Complet",
+    "card1_title": "Étapes Détaillées",
+    "card1_value": "Valeur : <span>5 000 FCFA</span>",
+    "card1_desc": "Toutes les étapes pour créer un compte Télégram depuis zéro, avec captures d'écran.",
+    "card2_label": "Récupération",
+    "card2_title": "Compte Existant",
+    "card2_value": "Valeur : <span>5 000 FCFA</span>",
+    "card2_desc": "Les solutions pour récupérer votre compte Télégram si vous avez perdu l'accès.",
+    "card3_label": "Bonus",
+    "card3_title": "Astuces & Conseils",
+    "card3_value": "Valeur : <span>3 000 FCFA</span>",
+    "card3_desc": "Astuces pour sécuriser votre compte et utiliser Télégram comme un pro.",
+    "total_label": "Valeur totale",
+    "total_content": "de contenu",
+    "price_label": "Prix de l'offre aujourd'hui"
+  },
+  "telegram": {
+    "label": "Pourquoi Télégram ?",
+    "title": "La messagerie la plus<br />sécurisée au monde",
+    "feat1_strong": "100% Gratuit",
+    "feat1_text": " — Télégram est totalement gratuit, sans abonnement ni frais cachés.",
+    "feat2_strong": "Multi-plateforme",
+    "feat2_text": " — Disponible sur téléphone, tablette et ordinateur. Tes messages synchronisés partout.",
+    "feat3_strong": "Sécurité maximale",
+    "feat3_text": " — Chiffrement de bout en bout, messages qui s'auto-détruisent, et bien plus.",
+    "feat4_strong": "Confidentialité",
+    "feat4_text": " — Télégram ne partage jamais tes données personnelles avec des tiers.",
+    "iphone_note": "⚠️ <em>Le guide fonctionne aussi bien sur iPhone que sur Android et PC.</em>",
+    "visual_title": "Prêt à créer ton compte ? 🚀",
+    "visual_desc": "Suis le guide pas à pas et tu auras ton compte Télégram opérationnel en moins de 5 minutes."
+  },
+  "testimonials": {
+    "label": "Avis clients",
+    "title": "+1 200 utilisateurs<br />nous font déjà confiance",
+    "t1_text": "Guide très clair et bien illustré. J'ai créé mon compte en 3 minutes chrono !",
+    "t2_text": "J'avais perdu l'accès à mon compte depuis des mois. Grâce à ce guide, j'ai tout récupéré. Merci !",
+    "t3_text": "Je ne suis pas très doué avec la technologie, mais les explications sont tellement simples que j'ai réussi du premier coup 👌",
+    "cta_text": "Rejoins les <strong style=\"color:var(--primary);\">1200 utilisateurs satisfaits</strong> et obtiens ton guide maintenant."
+  },
+  "proofs": {
+    "label": "Preuves de satisfaction",
+    "title": "Ils ont déjà suivi le guide et ont donné leur autorisation pour partager leur retour. La satisfaction de nos clients est notre priorité !",
+    "desc": "Voici quelques retours de nos utilisateurs satisfaits par la qualité du guide."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Foire aux questions",
+    "q1": "Comment est-ce que je reçois le guide ?",
+    "a1": "Après ton paiement, tu reçois un PDF par email contenant le guide complet avec toutes les étapes illustrées. Assure-toi de saisir ton adresse email correctement lors de la commande.",
+    "q2": "Est-ce que le guide fonctionne sur iPhone ?",
+    "a2": "Oui, absolument ! Le guide est conçu pour fonctionner sur tous les appareils : iPhone, Android, PC et Mac. Chaque étape est expliquée pour chaque plateforme.",
+    "q3": "Je n'arrive pas à récupérer mon compte, est-ce que le guide peut vraiment m'aider ?",
+    "a3": "Oui, le guide couvre toutes les méthodes de récupération de compte Télégram : par SMS, par email, et via les contacts de confiance. Suis les étapes et tu retrouveras ton compte.",
+    "q4": "Est-ce que je peux poser des questions si je bloque ?",
+    "a4": "Oui ! Le guide inclut un accès à notre support. Si tu rencontres une difficulté, tu peux nous contacter par email et nous t'aiderons à chaque étape."
+  },
+  "cta_section": {
+    "promo_label": "🔥 L'OFFRE EST DISPONIBLE MAINTENANT",
+    "title": "Prêt à créer ou récupérer<br />ton compte Télégram ?",
+    "subtitle": "Guide complet · Accès immédiat · Support inclus",
+    "btn": "📖 Obtenir le Guide — 3 500 FCFA",
+    "warning": "⚠️ <strong>Important :</strong> Assurez-vous d'insérer correctement votre email lors de l'achat pour recevoir votre guide PDF. Vous pouvez utiliser un <strong>pseudonyme</strong> lors du paiement pour préserver votre anonymat.",
+    "payment_methods": "Moyens de paiement sécurisés disponibles via mobile money ( Wave, Orange Money, MTN momo, Moov money, ... ) ou carte bancaire ( Visa et MasterCard )"
+  },
+  "upsell": {
+    "label": "Recommandé pour vous",
+    "title": "Nos Offres Premium Exclusives",
+    "balta_title": "Pack Baltazar (+2103 Vidéos, Photos & BD)",
+    "balta_desc": "La collection complète Baltazar en un seul canal privé. Vidéos HD, photos et BD pour Homme Mature.",
+    "balta_btn": "Voir l'offre Baltazar →",
+    "kera_title": "Pack Influenceuse (KERA)",
+    "kera_desc": "Découvrez le contenu exclusif de l'influenceuse dont tout le monde parle. Accès instantané et discret.",
+    "kera_btn": "Voir les Vidéos →",
+    "bd_title": "Pack +14 838 BD & Mangas pour Adultes",
+    "bd_desc": "Découvrez notre collection exclusive de bandes dessinées pour adultes. Un accès immédiat à des milliers d'histoires inédites.",
+    "bd_btn": "Voir l'offre BD →"
+  },
+  "footer": {
+    "contact_intro": "Un problème ? Contactez-nous :",
+    "copyright": "© 2024 GoTelegram. Tous droits réservés."
+  },
+  "float_bar": {
+    "text": "🔥 Promo : <strong>3 500 FCFA</strong> au lieu de 13 000 FCFA",
+    "btn": "J'achète 🛒"
+  }
+}
