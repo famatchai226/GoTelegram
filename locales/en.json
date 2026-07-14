@@ -68,8 +68,12 @@
     "title": "+1,200 users<br />already trust us",
     "t1_text": "Very clear and well-illustrated guide. I created my account in 3 minutes flat!",
     "t2_text": "I had lost access to my account for months. Thanks to this guide, I recovered everything. Thank you!",
-    "t3_text": "I'm not very tech-savvy, but the explanations are so simple that I succeeded on my first try 👌",
+    "t3_text": "I thought it was complicated, but in 10 minutes I had my account and my virtual card. Too easy!",
+    "t4_text": "I didn't have a Visa card, the video on the virtual card allowed me to pay for my subscription and my Facebook ads.",
+    "t5_text": "I was finally able to store all my work files on Telegram, I no longer risk losing them.",
+    "t6_text": "I am impressed by the quality of the guide. It really helped me solve my security issues on Telegram.",
     "cta_text": "Join the <strong style=\"color:var(--primary);\">1200 satisfied users</strong> and get your guide now."
+
   },
   "proofs": {
     "label": "Proof of satisfaction",

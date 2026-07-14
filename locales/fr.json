@@ -68,8 +68,12 @@
     "title": "+1 200 utilisateurs<br />nous font déjà confiance",
     "t1_text": "Guide très clair et bien illustré. J'ai créé mon compte en 3 minutes chrono !",
     "t2_text": "J'avais perdu l'accès à mon compte depuis des mois. Grâce à ce guide, j'ai tout récupéré. Merci !",
-    "t3_text": "Je ne suis pas très doué avec la technologie, mais les explications sont tellement simples que j'ai réussi du premier coup 👌",
+    "t3_text": "Je pensais que c'était compliqué, mais en 10 minutes j'avais mon compte et ma carte virtuelle. Trop facile !",
+    "t4_text": "Je n'avais pas de carte Visa, la vidéo sur la carte virtuelle m'a permis de payer mon abonnement et mes pubs Facebook.",
+    "t5_text": "J'ai enfin pu stocker tous mes dossiers pro sur Telegram, je ne risque plus de les perdre.",
+    "t6_text": "Je suis impressionné par la qualité du guide. Il m'a vraiment aidé à résoudre mes problèmes de sécurité sur Telegram.",
     "cta_text": "Rejoins les <strong style=\"color:var(--primary);\">1200 utilisateurs satisfaits</strong> et obtiens ton guide maintenant."
+
   },
   "proofs": {
     "label": "Preuves de satisfaction",
