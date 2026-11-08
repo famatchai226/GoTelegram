@@ -1216,6 +1216,93 @@
     .fade-up-d4 {
       animation-delay: 0.4s;
     }
+
+    /* ---- Cartes d'upsell : visuel produit + carte ---- */
+    .upsell-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .upsell-card {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+      background: var(--surface-container-lowest);
+      border: 1px solid var(--outline-variant);
+      border-radius: 1.75rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+      text-align: left;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .upsell-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 44px rgba(0, 0, 0, 0.09);
+    }
+
+    /* visuel : carre, cale en haut du cadrage (les affiches sont en portrait) */
+    .upsell-thumb {
+      display: block;
+      flex: 0 0 auto;
+      width: 152px;
+      height: 152px;
+      border-radius: 1.25rem;
+      object-fit: cover;
+      object-position: center 20%;
+      background: var(--surface-container);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .upsell-body {
+      flex: 1 1 260px;
+      min-width: 0;
+    }
+
+    .upsell-body h3 {
+      margin-bottom: 0.5rem;
+      color: var(--on-surface);
+    }
+
+    .upsell-body p {
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .upsell-card .btn-primary,
+    .upsell-card .btn-secondary {
+      animation: none;
+    }
+
+    @media (max-width: 640px) {
+      .upsell-card {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.25rem;
+        padding: 1.25rem;
+      }
+
+      .upsell-thumb {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .upsell-card {
+        transition: none;
+      }
+
+      .upsell-card:hover {
+        transform: none;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+      }
+    }
+
   </style>
   <!-- Cloudflare Web Analytics -->
   <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "VOTRE_TOKEN_ICI"}'></script> -->
@@ -1635,35 +1722,35 @@
       <p class="label-upper" style="color: var(--primary); margin-bottom: 1rem;" data-i18n="upsell.label">Recommandé pour vous</p>
       <h2 class="display-sm" style="margin-bottom: 2rem;" data-i18n="upsell.title">Nos Offres Premium Exclusives</h2>
       
-      <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 850px; margin: 0 auto;">
+      <div class="upsell-grid">
         
         <!-- Upsell 1 : Collection Baltazar -->
-        <div style="background: white; border-radius: 2rem; padding: 2.5rem; box-shadow: 0 10px 40px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; text-align: left;">
-          <img src="https://balta.famatchai226.workers.dev/assets/hero%20caroussel/0.jpeg" alt="Collection Balta" style="width: 120px; height: 120px; object-fit: cover; border-radius: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border: 2px solid white;">
-          <div style="flex: 1; min-width: 280px;">
-            <h3 class="title-lg" style="margin-bottom: 0.5rem; color: var(--on-surface);" data-i18n="upsell.balta_title">Pack Baltazar (+2103 Vidéos, Photos & BD)</h3>
-            <p class="body-md" style="font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="upsell.balta_desc">La collection complète Baltazar en un seul canal privé. Vidéos HD, photos et BD pour Homme Mature.</p>
-            <a href="https://balta.famatchai226.workers.dev/" class="btn-primary" style="animation: none;" data-i18n="upsell.balta_btn">Voir l'offre Baltazar →</a>
+        <div class="upsell-card">
+          <img class="upsell-thumb" src="https://balta.famatchai226.workers.dev/assets/hero%20caroussel/0.jpeg" alt="Collection Balta" loading="lazy" decoding="async">
+          <div class="upsell-body">
+            <h3 class="title-lg" data-i18n="upsell.balta_title">Pack Baltazar (+2103 Vidéos, Photos & BD)</h3>
+            <p class="body-md" data-i18n="upsell.balta_desc">La collection complète Baltazar en un seul canal privé. Vidéos HD, photos et BD pour Homme Mature.</p>
+            <a href="https://balta.famatchai226.workers.dev/" class="btn-primary" data-i18n="upsell.balta_btn">Voir l'offre Baltazar →</a>
           </div>
         </div>
 
         <!-- Upsell 2 : Influenceuse Kera -->
-        <div style="background: white; border-radius: 2rem; padding: 2.5rem; box-shadow: 0 10px 40px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; text-align: left;">
-          <img src="https://kera.famatchai226.workers.dev/assets/hero%20caroussel/0.jpeg" alt="Pack Kera" style="width: 120px; height: 120px; object-fit: cover; border-radius: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border: 2px solid white;">
-          <div style="flex: 1; min-width: 280px;">
-            <h3 class="title-lg" style="margin-bottom: 0.5rem; color: var(--on-surface);" data-i18n="upsell.kera_title">Pack Influenceuse (KERA)</h3>
-            <p class="body-md" style="font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="upsell.kera_desc">Découvrez le contenu exclusif de l'influenceuse dont tout le monde parle. Accès instantané et discret.</p>
-            <a href="https://kera.famatchai226.workers.dev/" class="btn-primary" style="animation: none;" data-i18n="upsell.kera_btn">Voir les Vidéos →</a>
+        <div class="upsell-card">
+          <img class="upsell-thumb" src="https://kera.famatchai226.workers.dev/assets/hero%20caroussel/0.jpeg" alt="Pack Kera" loading="lazy" decoding="async">
+          <div class="upsell-body">
+            <h3 class="title-lg" data-i18n="upsell.kera_title">Pack Influenceuse (KERA)</h3>
+            <p class="body-md" data-i18n="upsell.kera_desc">Découvrez le contenu exclusif de l'influenceuse dont tout le monde parle. Accès instantané et discret.</p>
+            <a href="https://kera.famatchai226.workers.dev/" class="btn-primary" data-i18n="upsell.kera_btn">Voir les Vidéos →</a>
           </div>
         </div>
 
         <!-- Upsell 3 : BD Hentai -->
-        <div style="background: white; border-radius: 2rem; padding: 2.5rem; box-shadow: 0 10px 40px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; text-align: left;">
-          <img src="https://bd.famatchai226.workers.dev/assets/hero%20caroussel/0.jpg" alt="Collection BD Adulte" style="width: 120px; height: 120px; object-fit: cover; border-radius: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border: 2px solid white;">
-          <div style="flex: 1; min-width: 280px;">
-            <h3 class="title-lg" style="margin-bottom: 0.5rem; color: var(--on-surface);" data-i18n="upsell.bd_title">Pack +14 838 BD & Mangas pour Adultes</h3>
-            <p class="body-md" style="font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="upsell.bd_desc">Découvrez notre collection exclusive de bandes dessinées pour adultes. Un accès immédiat à des milliers d'histoires inédites.</p>
-            <a href="https://bd.famatchai226.workers.dev/" class="btn-secondary" style="animation: none;" target="_blank" rel="noopener" data-i18n="upsell.bd_btn">Voir l'offre BD →</a>
+        <div class="upsell-card">
+          <img class="upsell-thumb" src="https://bd.famatchai226.workers.dev/assets/hero%20caroussel/0.jpg" alt="Collection BD Adulte" loading="lazy" decoding="async">
+          <div class="upsell-body">
+            <h3 class="title-lg" data-i18n="upsell.bd_title">Pack +14 838 BD & Mangas pour Adultes</h3>
+            <p class="body-md" data-i18n="upsell.bd_desc">Découvrez notre collection exclusive de bandes dessinées pour adultes. Un accès immédiat à des milliers d'histoires inédites.</p>
+            <a href="https://bd.famatchai226.workers.dev/" class="btn-secondary" target="_blank" rel="noopener" data-i18n="upsell.bd_btn">Voir l'offre BD →</a>
           </div>
         </div>
 
@@ -1737,6 +1824,86 @@
   </script>
 
   <script src="./i18n.js"></script>
+<!-- ================== 18+ AGE GATE ================== -->
+<style>
+#ageGate{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.85);backdrop-filter:blur(6px);padding:20px;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+#ageGate[hidden]{display:none}
+.age-gate-card{background:#141414;color:#fff;border:1px solid rgba(255,255,255,.12);border-radius:16px;max-width:440px;width:100%;padding:32px 28px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.age-gate-badge{display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#e11d48;font-weight:800;font-size:20px;margin-bottom:16px}
+.age-gate-card h2{font-size:22px;margin:0 0 10px;line-height:1.3}
+.age-gate-card p{font-size:15px;color:#cbd5e1;margin:0 0 24px;line-height:1.5}
+.age-gate-btns{display:flex;flex-direction:column;gap:10px}
+.age-gate-btn{border:0;cursor:pointer;font-size:16px;font-weight:700;padding:13px 16px;border-radius:10px;transition:transform .1s,opacity .2s,background .2s}
+.age-gate-btn:active{transform:scale(.98)}
+.age-gate-yes{background:#16a34a;color:#fff}
+.age-gate-yes:hover{background:#15803d}
+.age-gate-no{background:transparent;color:#e2e8f0;border:1px solid rgba(255,255,255,.25)}
+.age-gate-no:hover{background:rgba(255,255,255,.08)}
+.age-gate-msg{color:#f87171;font-size:13px;font-weight:600;margin-top:14px;min-height:18px}
+.age-gate-card.shake{animation:ageGateShake .4s}
+@keyframes ageGateShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+</style>
+
+<div id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageGateTitle">
+  <div class="age-gate-card" id="ageGateCard">
+    <div class="age-gate-badge">18+</div>
+    <h2 id="ageGateTitle">Avez-vous plus de 18 ans ?</h2>
+    <p id="ageGateDesc">Ce site est réservé aux adultes.</p>
+    <div class="age-gate-btns">
+      <button type="button" class="age-gate-btn age-gate-yes" id="ageGateYes">Oui, j'ai plus de 18 ans</button>
+      <button type="button" class="age-gate-btn age-gate-no" id="ageGateNo">Non, je suis mineur</button>
+    </div>
+    <div class="age-gate-msg" id="ageGateMsg" role="status"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  function detectLang(){
+    try{
+      var s=localStorage.getItem('preferred-lang');
+      if(s==='fr'||s==='en')return s;
+      s=localStorage.getItem('369secrets_lang');
+      if(s==='fr'||s==='en')return s;
+    }catch(e){}
+    var langs=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||'fr'];
+    for(var i=0;i<langs.length;i++){
+      var c=(langs[i]||'').slice(0,2).toLowerCase();
+      if(c==='en')return'en';
+      if(c==='fr')return'fr';
+    }
+    return'fr';
+  }
+  var T={
+    fr:{title:"Avez-vous plus de 18 ans ?",desc:"Ce site est réservé aux adultes.",yes:"Oui, j'ai plus de 18 ans",no:"Non, je suis mineur",denied:"Accès refusé"},
+    en:{title:"Are you over 18 years old?",desc:"This website is for adults only.",yes:"Yes, I am over 18",no:"No, I am under 18",denied:"Access denied"}
+  };
+  var L=T[detectLang()];
+  document.getElementById('ageGateTitle').textContent=L.title;
+  document.getElementById('ageGateDesc').textContent=L.desc;
+  document.getElementById('ageGateYes').textContent=L.yes;
+  document.getElementById('ageGateNo').textContent=L.no;
+
+  var gate=document.getElementById('ageGate');
+  var card=document.getElementById('ageGateCard');
+  var msg=document.getElementById('ageGateMsg');
+  var prevOverflow=document.body.style.overflow;
+  document.body.style.overflow='hidden';
+
+  document.getElementById('ageGateYes').addEventListener('click',function(){
+    gate.setAttribute('hidden','');
+    document.body.style.overflow=prevOverflow;
+  });
+
+  document.getElementById('ageGateNo').addEventListener('click',function(){
+    msg.textContent=L.denied;
+    card.classList.remove('shake');
+    void card.offsetWidth;
+    card.classList.add('shake');
+  });
+})();
+</script>
+
 </body>
 
 </html>
