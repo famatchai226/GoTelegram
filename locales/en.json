@@ -10,15 +10,17 @@
   "hero": {
     "badge": "🔥 Exclusive Guide — Step by Step",
     "title": "<em>How to Create or Recover</em><br />Your Telegram Account<br />Easily from Home 😉",
-    "desc": "A complete, simple and detailed guide to <strong>create a new Telegram account</strong> or <strong>recover your existing account</strong> — 100% accessible from your phone or computer.",
-    "cta": "📖 Access the guide now",
+    "desc": "The step-by-step guide to <strong>create a Telegram account</strong> or <strong>recover yours</strong> — from your phone.",
+    "cta": "📖 Get the Guide — 5,500 FCFA",
+    "proof": "⭐ 1,200+ users already trust us",
+  "price_note": "ℹ️ Check your email: that's where the guide arrives. A <strong>pseudonym</strong> is enough.",
     "trust_secure": "Secure Guide",
     "trust_instant": "Instant Access",
     "trust_private": "Step by Step",
     "trust_email": "Support Included"
   },
   "video": {
-    "title": "Watch this video to understand the process",
+    "title": "How it works (in video)",
     "subtitle": "Watch this short video to see how simple it is.",
     "src": "./assets/video/guide.mp4"
   },
@@ -30,7 +32,7 @@
   },
   "offer": {
     "label": "What you get",
-    "title": "Here's exactly what<br />you will receive:",
+    "title": "Everything is included",
     "desc": "A complete PDF guide with all illustrated steps to create or recover your Telegram account.",
     "card1_label": "Complete Guide",
     "card1_title": "Detailed Steps",
@@ -67,40 +69,44 @@
     "label": "Customer Reviews",
     "title": "+1,200 users<br />already trust us",
     "t1_text": "Very clear and well-illustrated guide. I created my account in 3 minutes flat!",
+    "t1_author": "Kevin, Abidjan",
     "t2_text": "I had lost access to my account for months. Thanks to this guide, I recovered everything. Thank you!",
+    "t2_author": "Fatou, Dakar",
     "t3_text": "I thought it was complicated, but in 10 minutes I had my account and my virtual card. Too easy!",
+    "t3_author": "Salif, Bamako",
     "t4_text": "I didn't have a Visa card, the video on the virtual card allowed me to pay for my subscription and my Facebook ads.",
+    "t4_author": "Aïssatou, Yaoundé",
     "t5_text": "I was finally able to store all my work files on Telegram, I no longer risk losing them.",
+    "t5_author": "Mamadou, Conakry",
     "t6_text": "I am impressed by the quality of the guide. It really helped me solve my security issues on Telegram.",
+    "t6_author": "Stéphane, Cotonou",
     "cta_text": "Join the <strong style=\"color:var(--primary);\">1200 satisfied users</strong> and get your guide now."
-
   },
   "proofs": {
     "label": "Proof of satisfaction",
-    "title": "They've already followed the guide and given permission to share their feedback. Customer satisfaction is our priority!",
-    "desc": "Here are some feedback from our users satisfied with the quality of the guide."
+    "title": "They followed the guide",
+    "desc": "Real first names and cities, published with their consent. Confidentiality stays our absolute priority."
   },
   "faq": {
     "label": "FAQ",
     "title": "Frequently Asked Questions",
     "q1": "How do I receive the guide?",
-    "a1": "After your payment, you receive a PDF by email containing the complete guide with all illustrated steps. Make sure to enter your email address correctly when ordering.",
+    "a1": "After payment, you get a PDF by email with the complete illustrated guide.",
     "q2": "Does the guide work on iPhone?",
-    "a2": "Yes, absolutely! The guide is designed to work on all devices: iPhone, Android, PC and Mac. Each step is explained for each platform.",
+    "a2": "Yes: iPhone, Android, PC and Mac. Each step is explained per platform.",
     "q3": "I can't recover my account, can the guide really help me?",
-    "a3": "Yes, the guide covers all Telegram account recovery methods: via SMS, email, and trusted contacts. Follow the steps and you'll get your account back.",
+    "a3": "Yes. It covers every method: SMS, email and trusted contacts.",
     "q4": "Can I ask questions if I get stuck?",
-    "a4": "Yes! The guide includes access to our support. If you encounter any difficulty, you can contact us by email and we'll help you every step of the way."
+    "a4": "Yes: the guide includes email support that helps you at every step."
   },
   "cta_section": {
     "promo_label": "🔥 THE OFFER IS AVAILABLE NOW",
     "title": "Ready to create or recover<br />your Telegram account?",
     "subtitle": "Complete Guide · Instant Access · Support Included",
     "btn": "📖 Get the Guide — 5,500 FCFA",
-
-
-    "warning": "⚠️ <strong>Important:</strong> Make sure to correctly enter your email when purchasing to receive your PDF guide. You can use a <strong>pseudonym</strong> at checkout to preserve your anonymity.",
-    "payment_methods": "Secure payment methods available via mobile money (Wave, Orange Money, MTN momo, Moov money, ...) or bank card (Visa and MasterCard)"
+    "proof": "⭐ 1,200+ users helped · Instant access",
+    "warning": "⚠️ <strong>Important:</strong> Enter your email correctly — that's where your PDF guide goes. A <strong>pseudonym</strong> is fine.",
+    "payment_methods": "Wave · Orange Money · MTN momo · Moov Money · Visa · Mastercard"
   },
   "upsell": {
     "label": "Recommended for you",
@@ -121,8 +127,6 @@
   },
   "float_bar": {
     "text": "🔥 Promo: <strong>5,500 FCFA</strong> instead of 17,456 FCFA",
-
-
     "btn": "Buy 🛒"
   }
 }

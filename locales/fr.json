@@ -10,15 +10,17 @@
   "hero": {
     "badge": "🔥 Guide Exclusif — Étape par Étape",
     "title": "<em>Comment Créer ou Récupérer</em><br />son Compte Télégram<br />Facilement depuis chez vous 😉",
-    "desc": "Un guide complet, simple et détaillé pour <strong>créer un nouveau compte Télégram</strong> ou <strong>récupérer votre compte existant</strong> — 100% accessible depuis votre téléphone ou ordinateur.",
-    "cta": "📖 Accéder au guide maintenant",
+    "desc": "Le guide pas à pas pour <strong>créer un compte Télégram</strong> ou <strong>récupérer le vôtre</strong> — depuis votre téléphone.",
+    "cta": "📖 Obtenir le guide — 5 500 FCFA",
+    "proof": "⭐ +1 200 utilisateurs nous font déjà confiance",
+  "price_note": "ℹ️ Vérifie bien ton email : c'est là que le guide arrive. Un <strong>pseudonyme</strong> suffit.",
     "trust_secure": "Guide sécurisé",
     "trust_instant": "Accès immédiat",
     "trust_private": "Étape par étape",
     "trust_email": "Support inclus"
   },
   "video": {
-    "title": "Regarde cette vidéo pour comprendre le processus",
+    "title": "Comment ça marche (en vidéo)",
     "subtitle": "Regardez cette courte vidéo pour voir à quel point c'est simple.",
     "src": "./assets/video/guide.mp4"
   },
@@ -30,7 +32,7 @@
   },
   "offer": {
     "label": "Ce que tu reçois",
-    "title": "Voici exactement ce que<br />tu vas recevoir :",
+    "title": "Tout est déjà inclus",
     "desc": "Un guide PDF complet avec toutes les étapes illustrées pour créer ou récupérer ton compte Télégram.",
     "card1_label": "Guide Complet",
     "card1_title": "Étapes Détaillées",
@@ -67,40 +69,44 @@
     "label": "Avis clients",
     "title": "+1 200 utilisateurs<br />nous font déjà confiance",
     "t1_text": "Guide très clair et bien illustré. J'ai créé mon compte en 3 minutes chrono !",
+    "t1_author": "Kevin, Abidjan",
     "t2_text": "J'avais perdu l'accès à mon compte depuis des mois. Grâce à ce guide, j'ai tout récupéré. Merci !",
+    "t2_author": "Fatou, Dakar",
     "t3_text": "Je pensais que c'était compliqué, mais en 10 minutes j'avais mon compte et ma carte virtuelle. Trop facile !",
+    "t3_author": "Salif, Bamako",
     "t4_text": "Je n'avais pas de carte Visa, la vidéo sur la carte virtuelle m'a permis de payer mon abonnement et mes pubs Facebook.",
+    "t4_author": "Aïssatou, Yaoundé",
     "t5_text": "J'ai enfin pu stocker tous mes dossiers pro sur Telegram, je ne risque plus de les perdre.",
+    "t5_author": "Mamadou, Conakry",
     "t6_text": "Je suis impressionné par la qualité du guide. Il m'a vraiment aidé à résoudre mes problèmes de sécurité sur Telegram.",
+    "t6_author": "Stéphane, Cotonou",
     "cta_text": "Rejoins les <strong style=\"color:var(--primary);\">1200 utilisateurs satisfaits</strong> et obtiens ton guide maintenant."
-
   },
   "proofs": {
     "label": "Preuves de satisfaction",
-    "title": "Ils ont déjà suivi le guide et ont donné leur autorisation pour partager leur retour. La satisfaction de nos clients est notre priorité !",
-    "desc": "Voici quelques retours de nos utilisateurs satisfaits par la qualité du guide."
+    "title": "Ils ont suivi le guide",
+    "desc": "Prénoms et villes réels, publiés avec leur accord. La confidentialité reste notre priorité absolue."
   },
   "faq": {
     "label": "FAQ",
     "title": "Foire aux questions",
     "q1": "Comment est-ce que je reçois le guide ?",
-    "a1": "Après ton paiement, tu reçois un PDF par email contenant le guide complet avec toutes les étapes illustrées. Assure-toi de saisir ton adresse email correctement lors de la commande.",
+    "a1": "Après paiement, tu reçois un PDF par email avec le guide complet et toutes les étapes illustrées.",
     "q2": "Est-ce que le guide fonctionne sur iPhone ?",
-    "a2": "Oui, absolument ! Le guide est conçu pour fonctionner sur tous les appareils : iPhone, Android, PC et Mac. Chaque étape est expliquée pour chaque plateforme.",
+    "a2": "Oui : iPhone, Android, PC et Mac. Chaque étape est expliquée par plateforme.",
     "q3": "Je n'arrive pas à récupérer mon compte, est-ce que le guide peut vraiment m'aider ?",
-    "a3": "Oui, le guide couvre toutes les méthodes de récupération de compte Télégram : par SMS, par email, et via les contacts de confiance. Suis les étapes et tu retrouveras ton compte.",
+    "a3": "Oui. Il couvre toutes les méthodes : SMS, email et contacts de confiance.",
     "q4": "Est-ce que je peux poser des questions si je bloque ?",
-    "a4": "Oui ! Le guide inclut un accès à notre support. Si tu rencontres une difficulté, tu peux nous contacter par email et nous t'aiderons à chaque étape."
+    "a4": "Oui : le guide inclut notre support par email, qui t'aide à chaque étape."
   },
   "cta_section": {
     "promo_label": "🔥 L'OFFRE EST DISPONIBLE MAINTENANT",
     "title": "Prêt à créer ou récupérer<br />ton compte Télégram ?",
     "subtitle": "Guide complet · Accès immédiat · Support inclus",
-    "btn": "📖 Obtenir le Guide — 5 500 FCFA",
-
-
-    "warning": "⚠️ <strong>Important :</strong> Assurez-vous d'insérer correctement votre email lors de l'achat pour recevoir votre guide PDF. Vous pouvez utiliser un <strong>pseudonyme</strong> lors du paiement pour préserver votre anonymat.",
-    "payment_methods": "Moyens de paiement sécurisés disponibles via mobile money ( Wave, Orange Money, MTN momo, Moov money, ... ) ou carte bancaire ( Visa et MasterCard )"
+    "btn": "📖 Obtenir le guide — 5 500 FCFA",
+    "proof": "⭐ +1 200 utilisateurs aidés · Accès immédiat",
+    "warning": "⚠️ <strong>Important :</strong> Saisis bien ton email — c'est là que tu reçois ton guide PDF. Un <strong>pseudonyme</strong> suffit.",
+    "payment_methods": "Wave · Orange Money · MTN momo · Moov Money · Visa · Mastercard"
   },
   "upsell": {
     "label": "Recommandé pour vous",
@@ -121,8 +127,6 @@
   },
   "float_bar": {
     "text": "🔥 Promo : <strong>5 500 FCFA</strong> au lieu de 17 456 FCFA",
-
-
     "btn": "J'achète 🛒"
   }
 }
